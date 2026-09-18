@@ -1,0 +1,25 @@
+work_area*/
+tailscale-cs/
+composer.*
+respaldos/
+Modgest/
+Python*/
+msx*.py
+*.output
+vendor
+thanos/
+msx.py
+thanos
+bkdir/
+java/
+*.exe
+*.msi
+*.txt
+*.pyc
+*.msp
+*.msx
+# Archivos necesarios para arrancar Forge
+!servidor_minecraft/user_jvm_args.txt
+!servidor_minecraft/libraries/**/unix_args.txt
+!servidor_minecraft/libraries/**/win_args.txt
+!servidor_minecraft/eula.txt

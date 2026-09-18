@@ -1,0 +1,307 @@
+[17Sep2026 07:13:12.614] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[17Sep2026 07:13:12.618] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Ubuntu; OS Linux arch amd64 version 6.8.0-1064-azure
+[17Sep2026 07:13:20.977] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[17Sep2026 07:13:21.085] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/studious-journey/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[17Sep2026 07:13:21.786] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-journey/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[17Sep2026 07:13:21.789] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-journey/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[17Sep2026 07:13:21.793] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-journey/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[17Sep2026 07:13:21.794] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/studious-journey/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[17Sep2026 07:13:22.284] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[17Sep2026 07:13:26.736] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Sep2026 07:13:26.975] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[17Sep2026 07:13:27.727] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.83+mc1.20.1: 110 options available, 0 override(s) found
+[17Sep2026 07:13:27.727] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[17Sep2026 07:13:27.757] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[17Sep2026 07:13:31.971] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[17Sep2026 07:13:33.649] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (30.22 s after launch)
+[17Sep2026 07:13:34.119] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[17Sep2026 07:13:34.121] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[17Sep2026 07:13:36.683] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3011 milliseconds
+[17Sep2026 07:13:41.862] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[17Sep2026 07:13:43.308] [modloading-worker-0/INFO] [com.jack.oreveinminer.OreVeinminer/]: Ore Veinminer loaded
+[17Sep2026 07:13:43.793] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[17Sep2026 07:13:45.300] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[17Sep2026 07:13:45.891] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[17Sep2026 07:13:45.891] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[17Sep2026 07:13:50.351] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[17Sep2026 07:13:51.114] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[17Sep2026 07:13:51.595] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[17Sep2026 07:13:51.680] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[17Sep2026 07:13:51.688] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[17Sep2026 07:13:51.688] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[17Sep2026 07:13:51.691] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[17Sep2026 07:13:51.781] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[17Sep2026 07:13:51.975] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[17Sep2026 07:13:52.022] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[17Sep2026 07:13:52.214] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[17Sep2026 07:13:52.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.22.3 Target: null
+[17Sep2026 07:13:52.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[17Sep2026 07:13:52.683] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[17Sep2026 07:13:52.996] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Sep2026 07:13:53.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.22 Target: 1.20.1-2.6.23
+[17Sep2026 07:13:53.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[17Sep2026 07:13:53.363] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.3.3 Target: null
+[17Sep2026 07:13:53.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[17Sep2026 07:13:53.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.1.4 Target: null
+[17Sep2026 07:13:53.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Sep2026 07:13:53.416] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[17Sep2026 07:13:53.657] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[17Sep2026 07:13:53.657] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[17Sep2026 07:13:53.826] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[17Sep2026 07:13:54.117] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-journey/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[17Sep2026 07:13:54.118] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/studious-journey/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[17Sep2026 07:13:57.632] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/catacombs/crypt_loot
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:127) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootTableReference$Serializer.m_7267_(LootTableReference.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootTableReference$Serializer.m_7267_(LootTableReference.java:58) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[17Sep2026 07:13:58.098] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/citadel/citadel_tomes
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_written_book_pages'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:872) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:849) ~[forge-1.20.1-47.4.10-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[17Sep2026 07:13:58.773] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:irons_spellbooks:chests/citadel/citadel_bookshelf}.pools[8].entries[0]: Unknown loot table called irons_spellbooks:chests/citadel/citadel_tomes
+[17Sep2026 07:13:58.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[17Sep2026 07:13:59.129] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[17Sep2026 07:13:59.161] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[17Sep2026 07:13:59.311] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[17Sep2026 07:13:59.554] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[17Sep2026 07:13:59.560] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[17Sep2026 07:13:59.576] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[17Sep2026 07:13:59.648] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[17Sep2026 07:13:59.668] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 31 recipes
+[17Sep2026 07:13:59.926] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3581 advancements
+[17Sep2026 07:13:59.948] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 17 curio slots
+[17Sep2026 07:13:59.952] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[17Sep2026 07:13:59.957] [main/INFO] [Dungeon Crawl/]: Loading data...
+[17Sep2026 07:14:00.295] [main/INFO] [Dungeon Crawl/]: Done.
+[17Sep2026 07:14:00.300] [main/INFO] [ovh.corail.tombstone.entity.trade.TradeManager/]: Loaded 63 trades for Grave Guardian
+[17Sep2026 07:14:00.334] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[17Sep2026 07:14:00.348] [main/INFO] [botania/]: Loaded 30 Loonium configurations
+[17Sep2026 07:14:00.428] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[17Sep2026 07:14:00.430] [main/WARN] [ModernFix/]: Initial datapack load took 6.270 s
+[17Sep2026 07:14:00.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[17Sep2026 07:14:00.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[17Sep2026 07:14:00.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[17Sep2026 07:14:00.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Sep2026 07:14:00.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[17Sep2026 07:14:00.934] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[17Sep2026 07:14:01.042] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17Sep2026 07:14:01.042] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[17Sep2026 07:14:01.042] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17Sep2026 07:14:01.043] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[17Sep2026 07:14:01.410] [Server thread/INFO] [spark/]: Starting background profiler...
+[17Sep2026 07:14:02.748] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[17Sep2026 07:14:03.987] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[17Sep2026 07:14:04.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Sep2026 07:14:05.280] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[17Sep2026 07:14:06.827] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:07.073] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:07.074] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:07.074] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:07.084] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:07.089] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:07.534] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:08.042] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Sep2026 07:14:08.521] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[17Sep2026 07:14:09.020] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[17Sep2026 07:14:09.537] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5017 ms
+[17Sep2026 07:14:09.539] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.478s)! For help, type "help"
+[17Sep2026 07:14:09.911] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17Sep2026 07:14:09.941] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[17Sep2026 07:14:09.963] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[17Sep2026 07:14:10.022] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[17Sep2026 07:14:10.022] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[17Sep2026 07:14:10.023] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[17Sep2026 07:14:10.023] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[17Sep2026 07:14:10.136] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.blood_magic due to unsatisfied mod condition.
+[17Sep2026 07:14:10.142] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[17Sep2026 07:14:10.142] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[17Sep2026 07:14:10.152] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[17Sep2026 07:14:10.184] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[17Sep2026 07:14:10.184] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[17Sep2026 07:14:10.187] [Server thread/WARN] [ModernFix/]: Dedicated server took 66.756 seconds to load
+[17Sep2026 07:15:04.212] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7444ab2e[id=<null>,name=Sammz15,properties={},legacy=false] (/100.95.172.54:53462) lost connection: Timed out
+[17Sep2026 07:15:11.004] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sammz15[/100.95.172.54:63924] logged in with entity id 975 at (3496.7385607154324, 23.551131342150402, 1222.233498572228)
+[17Sep2026 07:15:11.081] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Sammz15
+[17Sep2026 07:15:11.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 joined the game
+[17Sep2026 07:15:11.114] [Server thread/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity EntityBroom['entity.evilcraft.broom'/976, l='ServerLevel[world]', x=3496.74, y=23.90, z=1222.23] as it would cause deadlock
+[17Sep2026 07:15:12.277] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Sammz15 (20)
+[17Sep2026 07:15:12.280] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Sammz15
+[17Sep2026 07:15:16.847] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 54c90867-36a9-34c4-bfea-232ae110b79d
+[17Sep2026 07:15:17.845] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 54c90867-36a9-34c4-bfea-232ae110b79d
+[17Sep2026 07:15:17.849] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Sammz15 (54c90867-36a9-34c4-bfea-232ae110b79d) successfully connected to voice chat
+[17Sep2026 07:15:24.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 has reached the goal [Mighty Stroganoff]
+[17Sep2026 07:17:29.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 has reached the goal [Hydra Slayer]
+[17Sep2026 07:19:35.364] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Sammz15) moved wrongly! 0.35978813065958093
+[17Sep2026 07:19:35.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Sammz15) moved wrongly! 1.2166165562430251
+[17Sep2026 07:19:35.803] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Sammz15) moved wrongly! 0.2906130941059928
+[17Sep2026 07:20:27.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: entity.evilcraft.broom (vehicle of Sammz15) moved wrongly! 0.9087113539499114
+[17Sep2026 07:28:04.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 has made the advancement [We Need to Go Deeper]
+[17Sep2026 07:28:06.136] [Worker-Main-20/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[17Sep2026 07:28:07.929] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3788ms or 75 ticks behind
+[17Sep2026 07:30:45.990] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sammz15 moved wrongly!
+[17Sep2026 07:39:55.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 07:39:55.490] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:40:49.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 07:40:49.757] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:41:43.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 07:41:43.608] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:42:03.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 07:42:03.467] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:42:19.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was sent to hell by Echo of Tyros, First Flamebearer
+[17Sep2026 07:42:19.707] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:42:43.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was doomed to fall by Echo of Tyros, First Flamebearer
+[17Sep2026 07:42:43.957] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:43:13.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was obliterated by Echo of Tyros, First Flamebearer's fireball
+[17Sep2026 07:43:13.567] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:43:44.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 07:43:44.612] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:44:35.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 07:44:35.406] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:45:31.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 07:45:31.263] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:46:00.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 07:46:00.512] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:46:19.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 07:46:19.417] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:46:25.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[17Sep2026 07:46:26.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[17Sep2026 07:46:30.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was doomed to fall by Ancient Knight
+[17Sep2026 07:46:30.464] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:46:51.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 07:46:51.265] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:47:09.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 07:47:09.771] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:47:54.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was obliterated by Echo of Tyros, First Flamebearer's fireball
+[17Sep2026 07:47:54.310] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:48:03.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 07:48:03.760] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:48:21.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 07:48:21.704] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:48:32.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Ancient Knight
+[17Sep2026 07:48:32.133] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:49:59.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 fell from a high place
+[17Sep2026 07:49:59.158] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:50:52.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Ancient Knight
+[17Sep2026 07:50:52.058] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 07:55:02.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 has completed the challenge [Premium!]
+[17Sep2026 08:01:26.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was doomed to fall by Echo of Tyros, First Flamebearer
+[17Sep2026 08:01:26.478] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:03:26.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 08:03:26.264] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:04:35.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 08:04:35.957] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:05:11.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was burned by Echo of Tyros, First Flamebearer's fire magic
+[17Sep2026 08:05:11.558] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:05:53.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was sent to hell by Echo of Tyros, First Flamebearer
+[17Sep2026 08:05:53.507] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:06:00.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was sent to hell by Echo of Tyros, First Flamebearer
+[17Sep2026 08:06:00.188] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:06:29.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 was slain by Echo of Tyros, First Flamebearer
+[17Sep2026 08:06:30.011] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:07:14.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 cooked in Fiery Field's fiery field
+[17Sep2026 08:07:14.991] [Server thread/INFO] [tombstone/]: The player Sammz15 has successfully been saved
+[17Sep2026 08:13:58.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 has made the advancement [Where the Monstrous be Forged]
+[17Sep2026 08:15:59.167] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3526ms or 70 ticks behind
+[17Sep2026 08:17:06.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Sammz15's game mode to Creative Mode
+[17Sep2026 08:17:15.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sammz15 has completed the challenge [It's Purple!]
+[17Sep2026 08:17:29.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Sammz15's game mode to Survival Mode
+[17Sep2026 08:27:31.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Sammz15's game mode to Creative Mode
+[17Sep2026 08:29:31.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Sammz15's game mode to Survival Mode
